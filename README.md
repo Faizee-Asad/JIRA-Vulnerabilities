@@ -123,8 +123,21 @@ Resolution found
 Admin Project Dashboard Accessible
 https://mtihelpdesk.eng.monash.edu/rest/menu/latest/admin
 
+```
 
+```
+Project Group Found
+https://mtihelpdesk.eng.monash.edu/rest/api/2/projectCategory?maxResults=100
+```
 
+```
+Medium - Service Desk Signup Enable 
+https://mtihelpdesk.eng.monash.edu/servicedesk/customer/user/signup
+```
+
+```
+LOW - Query Componet Field
+```
 
 
 
