@@ -113,7 +113,10 @@ jira-unauthenticated-dashboards:
 https://<JIRA>/rest/api/2/dashboard?maxResults=100
 ```
 
-
+```
+Resolution found
+/rest/api/2/resolution
+```
 
 
 
@@ -136,5 +139,8 @@ https://<JIRA>/rest/api/2/dashboard?maxResults=100
 #### Reports
 * [https://hackerone.com/reports/632808](https://hackerone.com/reports/632808)
 * [https://hackerone.com/reports/1003980](https://hackerone.com/reports/1003980)
+* https://hackerone.com/reports/713900
+* https://hackerone.com/reports/139970
+* https://hackerone.com/reports/197726
 #### Blog
 [How i converted SSRF TO XSS in jira.](https://medium.com/@D0rkerDevil/how-i-convert-ssrf-to-xss-in-a-ssrf-vulnerable-jira-e9f37ad5b158)
