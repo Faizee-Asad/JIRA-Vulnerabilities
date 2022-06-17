@@ -106,7 +106,12 @@ Navigate to <JIRA_URL>/secure/QueryComponentRendererValue!Default.jspa?assignee=
 ```
 jira-unauth-popular-filters:
 https://<JIRA>/secure/ManageFilters.jspa?filterView=popular
-``
+```
+
+```
+jira-unauthenticated-dashboards:
+https://<JIRA>/rest/api/2/dashboard?maxResults=100
+```
 
 
 
@@ -126,6 +131,7 @@ https://<JIRA>/secure/ManageFilters.jspa?filterView=popular
 #### Tools
 
 [Nuclei Template](https://github.com/projectdiscovery/nuclei-templates/blob/master/workflows/jira-workflow.yaml) can be used to automate most of these CVEs Detection.
+[Automation Script](https://github.com/MayankPandey01/Jira-Lens) 
 
 #### Reports
 * [https://hackerone.com/reports/632808](https://hackerone.com/reports/632808)
