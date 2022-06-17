@@ -118,6 +118,12 @@ Resolution found
 /rest/api/2/resolution
 ```
 
+```
+
+Admin Project Dashboard Accessible
+https://mtihelpdesk.eng.monash.edu/rest/menu/latest/admin
+
+
 
 
 
