@@ -140,13 +140,19 @@ https://mtihelpdesk.eng.monash.edu/servicedesk/customer/user/signup
 LOW - Query Componet Field
 /secuure/QueryComponents!Jql.jspa?jql=
 https://mtihelpdesk.eng.monash.edu/secure/QueryComponent!Jql.jspa?jql=
+
+https://jira.atlassian.com/browse/JRASERVER-72003
 ```
 
 
 
 
 
+https://jira.atlassian.com/browse/JRASERVER-71536
 
+https://www.cvedetails.com/vulnerability-list/vendor_id-3578/product_id-8170/Atlassian-Jira.html
+
+https://hackerone.com/reports/1061204
 
 
 
