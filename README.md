@@ -133,10 +133,13 @@ https://mtihelpdesk.eng.monash.edu/rest/api/2/projectCategory?maxResults=100
 ```
 Medium - Service Desk Signup Enable 
 https://mtihelpdesk.eng.monash.edu/servicedesk/customer/user/signup
+https://mtihelpdesk.eng.monash.edu/servicedesk/customer/user/signup
 ```
 
 ```
 LOW - Query Componet Field
+/secuure/QueryComponents!Jql.jspa?jql=
+https://mtihelpdesk.eng.monash.edu/secure/QueryComponent!Jql.jspa?jql=
 ```
 
 
