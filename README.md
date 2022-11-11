@@ -172,3 +172,4 @@ https://hackerone.com/reports/1061204
 * https://hackerone.com/reports/197726
 #### Blog
 [How i converted SSRF TO XSS in jira.](https://medium.com/@D0rkerDevil/how-i-convert-ssrf-to-xss-in-a-ssrf-vulnerable-jira-e9f37ad5b158)
+https://gist.github.com/0x240x23elu/891371d46a1e270c7bdded0469d8e09c
