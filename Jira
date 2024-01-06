@@ -1,0 +1,141 @@
+seq=[1,0,1,0,1,0]
+sum_seq=sum(sum)
+parity_bit=0 if sum_seq %2==0 else 1
+bin_parity=seq+[parity_bit]
+print("Original sequence:",''.join(map(str,seq)))
+print("Sequence parity:",''.join(map(str,bin_parity)))
+rec_par=bin_pirity[-1]
+rec_data=bin_prity[:-1]
+rec_sum=sum(rec_data)
+if rec_sum%2==rec_par:
+print("Data integrity Intact")
+else:
+print('Data corrupted')
+
+def add_par(data):
+    for row in data:
+        row.append(row.count(1)%2)
+        column_parity=[sum(column)%2 for column in zip(*data)]
+        data.append(column_parity)
+        return data
+    
+def chk_par(data):
+    row_parity=[row[-1]for row in data[:-1]]
+    calculated_row_par=[row.count(1)%2 for row in data[:-1]]
+
+    column_parity=[data[-1]]
+    calculated_column_par=[sum(column)%2 for column in zip(*data[:-1])]
+
+    row_errors=[i for i,(actual,calculated)in enumerate
+                (zip(row_parity,calculated_row_par))if actual!=calculated]
+
+    column_errors=[i for i,(actual,calculated)in enumerate
+                (zip(column_parity,calculated_column_par))if actual!=calculated]
+    return row_errors,column_errors
+
+data=[[1,0,1,0,1],[0,1,0,1,0]]
+data_par=add_par(data)
+print("DATA WITH PARITY BITS:")
+for row in data_par:
+    print(row)
+    data_par[1][1]=0
+    row_errors,column_errors=chk_par(data_par)
+
+print("\n DETECTED ERRORS:")
+print("ROW ERRORS:",row_errors)
+print("COLUMN ERRORS:",column_errors)
+
+apt install openssh-server
+Install putty to the client OS 
+Service ssh start
+ipconfig
+
+cupp -i
+
+netcraft
+
+infoga -d google.com -s google -v 3
+
+set.
+1,2,5,2,
+
+stego
+s-tool
+take ss open paint paste img save .bmp drag and drop. create txt and drag and drop set pass. right click save and send.
+right click reveal enter pass. back file.
+
+create input.txt
+SNOW.EXE -C -p 1234 -m "hidden message" input.txt output.txt
+SNOW.EXE -C -p 1234 output.txt
+
+import hashlib
+def gen_hash(password):
+	password=password.encode('utf-8')
+	hash_pass=hashlib.sha256(password).hexdigest()
+	return hash_pass
+main_password="amin"
+hash_pass=gen_hash(main_password)
+print("Hash Password For Your Password Is: ",hash_pass)
+
+import hashlib
+import os
+def gen_salt():
+	return os.urandom(16)
+def gen_hash(password,salt):
+	password=password.encode('utf-8')+salt
+	hash_pass=hashlib.sha256(password).hexdigest()
+	return hash_pass,salt
+main_password="amin"
+salt=gen_salt()
+hash_pass,salt=gen_hash(main_password,salt)
+print("Hash Password For Your Password Is: ",hash_pass)
+print("Salt Value: ",salt)
+
+#include<stdio.h>
+int test_pwd()
+{
+  char pin[10];
+  int x=15,i;
+  printf("Enter password: ");
+  for(int y = 0; y<10;y++){
+    scanf(pin);
+  }
+  for(i=0;i<10;i+=2)x=(x&pin[i]) | pin[i+1];
+  if(x==48) return 0;
+  else return 1;
+}
+void main()
+{
+  if(test_pwd()) printf("Fail\n");
+  else printf("Success\n");
+}
+
+gcc -g static --no-pie -o buff buff.c
+./buff
+
+String formatting/overflow
+#include<stdio.h>
+void main(int argc, char **argv)
+{
+  printf(argv[1]);
+}
+gcc -o test string.c
+./test
+./test "asad faizee"
+
+String formatting/overflow using python
+import sys
+import subprocess
+a = "./test"
+b = sys.argv[1]
+subprocess.run([a,b])
+python str.py "MMM"
+python str.py "%a"
+python str.py "%s"
+python str.py "%s %p %f"
+
+networking tool
+ifconfig
+whois
+ping
+netdiscover
